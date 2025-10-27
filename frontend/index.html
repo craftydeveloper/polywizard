@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PolyWizard 🔮</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>🧙‍♂️ PolyWizard</h1>
+    <p>Real-time Predictions from Polymarket</p>
+  </header>
+
+  <nav>
+    <button onclick="loadCategory('sports')">Sports</button>
+    <button onclick="loadCategory('politics')">Politics</button>
+    <button onclick="loadCategory('world')">World Events</button>
+    <button onclick="loadCategory('crypto')">Crypto</button>
+  </nav>
+
+  <main id="content">
+    <h2>Top Predictions</h2>
+    <div id="predictions">Loading...</div>
+  </main>
+
+  <footer>
+    <p>⚠️ Disclaimer: Predictions are crowd-sourced from Polymarket and may not guarantee outcomes.</p>
+    <a href="#" id="twitter-link">🐦 Follow on Twitter</a>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
