@@ -1,0 +1,10 @@
+{
+  "name": "polywizard",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Browser explorer for public prediction-market data.",
+  "scripts": {
+    "test": "node --test"
+  }
+}
